@@ -34,14 +34,19 @@
 21 silly publish   version: '0.1.1',
 21 silly publish   description: 'Censors words out of text',
 21 silly publish   main: 'censortext',
-21 silly publish   repository: { type: 'git' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/Lazar5555/censortext.git' },
 21 silly publish   keyword: [ 'censor', 'words' ],
 21 silly publish   dependencies: {},
 21 silly publish   engines: { node: '*' },
+21 silly publish   gitHead: '70e35fa3d1c881298273f07aa5fe0d5dc1107180',
+21 silly publish   bugs: { url: 'https://github.com/Lazar5555/censortext/issues' },
 21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   homepage: 'https://github.com/Lazar5555/censortext#readme',
 21 silly publish   _id: 'censorify@0.1.1',
 21 silly publish   scripts: {},
-21 silly publish   _shasum: '4a5fa494a20830664dcfb0cf0e4ff1a96200f6ed',
+21 silly publish   _shasum: '66452b322d4a3d49fda13b42967dfeb874b1ef0b',
 21 silly publish   _from: '.' }
 22 verbose getPublishConfig undefined
 23 silly mapToRegistry name censorify
@@ -60,22 +65,22 @@
 29 silly publish uploading C:\Users\eleazar.PC0JGLUP\AppData\Roaming\npm-cache\censorify\0.1.1\package.tgz
 30 verbose request uri https://registry.npmjs.org/censorify
 31 verbose request sending authorization for write operation
-32 info attempt registry request try #1 at 11:03:20
+32 info attempt registry request try #1 at 11:14:06
 33 verbose request using bearer token for auth
-34 verbose request id 330cab74a4b5c756
+34 verbose request id 91b7901c183302ca
 35 http request PUT https://registry.npmjs.org/censorify
 36 http 403 https://registry.npmjs.org/censorify
 37 verbose headers { 'content-type': 'application/json',
 37 verbose headers   'cache-control': 'max-age=300',
 37 verbose headers   'content-length': '103',
 37 verbose headers   'accept-ranges': 'bytes',
-37 verbose headers   date: 'Tue, 14 Nov 2017 17:03:23 GMT',
+37 verbose headers   date: 'Tue, 14 Nov 2017 17:14:09 GMT',
 37 verbose headers   via: '1.1 varnish',
 37 verbose headers   connection: 'keep-alive',
-37 verbose headers   'x-served-by': 'cache-sjc3143-SJC',
+37 verbose headers   'x-served-by': 'cache-sjc3626-SJC',
 37 verbose headers   'x-cache': 'MISS',
 37 verbose headers   'x-cache-hits': '0',
-37 verbose headers   'x-timer': 'S1510679003.834911,VS0,VE176',
+37 verbose headers   'x-timer': 'S1510679650.508873,VS0,VE69',
 37 verbose headers   vary: 'Accept-Encoding, Accept' }
 38 verbose request invalidating C:\Users\eleazar.PC0JGLUP\AppData\Roaming\npm-cache\registry.npmjs.org\censorify on PUT
 39 error publish Failed PUT 403

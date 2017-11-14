@@ -1,6 +1,6 @@
 {
     "author": "Brendan Dayley",
-    "name": "censorify",
+    "name": "censorify_lazar",
     "version": "0.1.1",
     "description": "Censors words out of text",
     "main": "censortext",
