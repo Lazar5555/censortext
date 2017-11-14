@@ -5,7 +5,8 @@
     "description": "Censors words out of text",
     "main": "censortext",
     "repository": {
-        "type": "git"
+        "type": "git",
+        "url": "https://github.com/Lazar5555/censortext"
     },
     "keyword": [
         "censor",
